@@ -34,7 +34,7 @@ public class SwaggerAPIDocumentationConfig {
     @Bean
     public Docket configureControllerPackageAndConvertors() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("org.spring")).build()
+                .apis(RequestHandlerSelectors.basePackage("com.hendisantika.personapplication.controller")).build()
                 .directModelSubstitute(org.joda.time.LocalDate.class, java.sql.Date.class)
                 .directModelSubstitute(org.joda.time.DateTime.class, java.util.Date.class)
                 .apiInfo(apiInfo());
