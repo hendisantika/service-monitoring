@@ -1,6 +1,6 @@
 package com.hendisantika.personapplication.service;
 
-import com.hendisantika.personapplication.entity.Person;
+import com.hendisantika.personapplication.model.Person;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.hendisantika.personapplication.repository;
 
-import com.hendisantika.personapplication.entity.Person;
+import com.hendisantika.personapplication.entity.PersonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -15,5 +15,5 @@ import org.springframework.stereotype.Repository;
  * To change this template use File | Settings | File Templates.
  */
 @Repository
-public interface PersonRepository extends JpaRepository<Person, Integer> {
+public interface PersonRepository extends JpaRepository<PersonEntity, Integer> {
 }

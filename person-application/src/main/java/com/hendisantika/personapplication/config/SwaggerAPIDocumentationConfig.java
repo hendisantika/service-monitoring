@@ -25,7 +25,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 public class SwaggerAPIDocumentationConfig {
     ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("Person REST CRUD operations API in Spring-Boot 2")
+        return new ApiInfoBuilder().title("PersonEntity REST CRUD operations API in Spring-Boot 2")
                 .description(
                         "Sample REST API for monitoring using Spring Boot, Prometheus and Graphana ")
                 .termsOfServiceUrl("").version("0.0.1-SNAPSHOT").contact(new Contact("Hendi Santika", "https://github.com/hendisantika/service-monitoring/person-application", "https://github.com/hendisantika")).build();

@@ -1,4 +1,4 @@
-package com.hendisantika.personapplication;
+package com.hendisantika.personapplication.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
