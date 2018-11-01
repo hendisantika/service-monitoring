@@ -1,7 +1,6 @@
 package com.hendisantika.personapplication.service;
 
 import com.hendisantika.personapplication.model.Person;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,7 +16,6 @@ import java.util.Optional;
  * To change this template use File | Settings | File Templates.
  */
 
-@Service
 public interface PersonService {
     /**
      * @param personId

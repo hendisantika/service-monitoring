@@ -4,7 +4,7 @@ import com.hendisantika.personapplication.entity.PersonEntity;
 import com.hendisantika.personapplication.model.Person;
 import com.hendisantika.personapplication.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * Time: 06.58
  * To change this template use File | Settings | File Templates.
  */
-@Component
+@Service
 public class PersonServiceImpl implements PersonService {
 
     private final PersonRepository personRepo;
